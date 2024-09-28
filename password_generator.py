@@ -1,7 +1,7 @@
 import random as r #importing random library for random choosing password
 len_of_password = int(input("How many characters for password: ")) # asking length of password
-chars_all = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM*-+/@#[]{}.,!£$%&=?0123456789"
-chars_lower = "qwertyuiopasdfghjklzxcvbnm" # define the characters for the password
+chars_all = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM*-+/@#[]{}.,!£$%&=?0123456789" # define the characters for the password
+chars_lower = "qwertyuiopasdfghjklzxcvbnm" 
 chars_upper = "QWERTYUIOPASDFGHJKLZXCVBNM"
 chars_special = "*-+/@#[]{}.,!£$%&=?"
 chars_num = "0123456789"
